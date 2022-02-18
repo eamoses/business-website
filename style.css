@@ -1,5 +1,5 @@
 * {
-    color: #202020;
+    color: white;
 }
 
 a {
@@ -8,6 +8,7 @@ a {
 }
 
 .nav {
+    background-color: #202020;
     height: 60px;
     width: 100vw;
     position: fixed;
@@ -55,10 +56,21 @@ a {
 }
 
 .banner-container {
-    height: 500px;
+    height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('https://media.istockphoto.com/photos/empty-white-flag-on-white-isolated-background-picture-id1304064497?b=1&k=20&m=1304064497&s=170667a&w=0&h=r-NJc7dZEfJaeSC1cX4XRDRCTxBQguSQ69zWexxDm04=');
+    background-image: url('https://t4.ftcdn.net/jpg/01/11/92/63/360_F_111926384_lD1WksOGslwnrpI9xClpRyWdSFN6WHm8.jpg');
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    text-align: center;
+    height: 50vh;
+}
+
+.info-block {
+    padding: 50px;
 }
 
 .footer {
