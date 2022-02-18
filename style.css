@@ -1,0 +1,66 @@
+* {
+    color: #202020;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav {
+    height: 60px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    line-height: 60px;
+}
+
+.nav-wrapper {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    margin-left: 28px;
+}
+
+.nav ul {
+    display: inline-block;
+    float: right;
+    list-style: none;
+    text-align: right;
+    margin-top: -2px;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    color: inherit;
+    display: block;
+    font-size: 0.7em;
+    height: 50px;
+    letter-spacing: 1px;
+    position: relative;
+    text-transform: uppercase;
+    padding: 0 4px;
+    margin: 0 20px;
+}
+
+.banner-container {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://media.istockphoto.com/photos/empty-white-flag-on-white-isolated-background-picture-id1304064497?b=1&k=20&m=1304064497&s=170667a&w=0&h=r-NJc7dZEfJaeSC1cX4XRDRCTxBQguSQ69zWexxDm04=');
+}
+
+.footer {
+    text-align: center;
+}
